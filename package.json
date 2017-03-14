@@ -1,0 +1,22 @@
+{
+  "name": "aside-box",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/main.js",
+  "style": "dist/main.css",
+  "scripts": {
+    "dev": "vue build test.vue -o",
+    "build": "vue build ./tooltip.js --prod  --lib Tooltip"
+  },
+  "module": "main.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.7.2",
+    "less-loader": "^3.0.0",
+    "vue-cli": "^2.8.1"
+  },
+  "dependencies": {
+    "popper.js": "^1.0.8"
+  }
+}
